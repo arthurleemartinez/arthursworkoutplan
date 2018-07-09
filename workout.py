@@ -150,7 +150,12 @@ Quadriceps_exercises: {
 	”Step Mill” : 9.100145
 }
 
-Traps_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Traps_exercises: {
+	“Smith Machine Shrug” : 9.201255
+	”Dumbbell Shrug”: 8.70014
+	”Barbell Shrug”: 8.4
+	”Standing Dumbbell Upright Row”: 8.70071
+}
 
 Lower_Back_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
