@@ -31,13 +31,26 @@ def Day_plan(muscle_areas, choose_exercises):
 	
 
 
-week = {“Sunday” : 0, “Monday” : 1, “Tuesday” : 2, “Wednesday” : 3, “Thursday” : 4, “Friday” : 5, “Saturday2” : 6}
+week = [“Sunday”, “Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”]
 
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
 
-Chest_exercises: {“Dumbbell Bench Press” : 9.2, ”Pushups” : 9.2, ”Dumbbell Flyes” : 9.1, “Incline Dumbbell Bench Press” : 9.1, “Medium-Grip Barbell Bench Press” : 9.0, “Chest Dips” : 9.0}
+Chest_exercises: {
+	“Dumbbell Bench Press” : 9.2
+	”Pushups” : 9.2
+	”Dumbbell Flyes” : 9.1
+	“Incline Dumbbell Bench Press” : 9.1
+	“Medium-Grip Barbell Bench Press” : 9.0
+	“Chest Dips” : 9.0
+}
 
-Biceps_exercises: {“Incline Hammer Curls” : 9.5, ”Wide-Grip Standing Barbell Curl” : 9.3, ”Spider Curl” : 9.2, ”EZ-Bar Curl” : 9.1, ”Hammer Curls” : 9.1, ”Zottman Curl” : 9.1, ”Concentration Curls” : 9.0, ”Barbell Curl” : 9.0”, “Dumbbell Bicep Curl” : 8.9}
+Biceps_exercises: {
+	“Incline Hammer Curls” : 9.5
+	”Wide-Grip Standing Barbell Curl” : 9.3
+	”Spider Curl” : 9.2
+	”EZ-Bar Curl” : 9.1
+	”Hammer Curls” : 9.1
+	”Zottman Curl” : 9.1, ”Concentration Curls” : 9.0, ”Barbell Curl” : 9.0”, “Dumbbell Bicep Curl” : 8.9}
 
 Abdominals_exercises: {“One-Arm Medicine Ball Slam” : 9.5, ”Landmine180s” : 9.5, ”Plank” : 9.3, ”Elbow to Knee” : 9.1, ”Plate-Twist” : 9.0, ”Bottom’s Up” : 9.3}
 
