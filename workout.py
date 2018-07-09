@@ -169,10 +169,5 @@ Abductors_exercises: {“”:””:””:””:””:””:””:””:�
 
 Adductors_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
  
-
- 
- 
-exercise_ratings =  {“Flat Bench”: ::::}Even though the total weekly training volume was the same, it was the guys training each muscle group three times a week who saw the greatest gains in both size and strength.
- 
  
 
