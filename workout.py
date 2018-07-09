@@ -109,7 +109,8 @@ Middle_Back_exercises: {
 	”Reverse Grip Bent-Over Rows” : 9.2
 	”One-Arm Long Bar Row” : 9.0
 	”One-Arm Dumbbell Row” : 9.0
-	”Seated Cable Rows” : 8.8}
+	”Seated Cable Rows” : 8.8
+}
 
 Calves_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
