@@ -96,12 +96,12 @@ Triceps_exercises: {
 	”Close-Grip Barbell Bench Press” : 9.10041325
 	”Triceps Pushdown - V-Bar Attachment” : 9.100311
 	”Weighted Bench Dip” : 9.100003
-	”Push-Ups - Close Triceps Position” : 9.0000346
-	”Close-Grip Barbell Bench Press” : 9.10046
+	”Push-Ups - Close Triceps Position” : 9.00000346
+	”Close-Grip Barbell Bench Press” : 9.100046
 }
 
 Forearms_exercises: {
-	“Seated Palm-Up Barbell Wrist Curl” : 8.70046
+	“Seated Palm-Up Barbell Wrist Curl” : 8.700046
 	”Seated One-Arm Dumbbell Palms-Up Wrist Curl : 9.00034
 	”Wrist Roller” : 9.100325
 	”Palms-Up Barbell Wrist Curl Over A Bench” : 9.40235
@@ -114,32 +114,32 @@ Shoulders_exercises: {
 	”Standing Palm-In One-Arm Dumbbell Press” : 9.40003
 	”Power Partials” : 9.10005
 	”Seated Dumbbell Press” : 9.10002
-	”Side Laterals to Front Raise” : 9.50012
-	”Standing Palm-In One-Arm Dumbbell Press” : 9.4001
-	”One-Arm Side Laterals” : 9.1105
+	”Side Laterals to Front Raise” : 9.5060012
+	”Standing Palm-In One-Arm Dumbbell Press” : 9.40001
+	”One-Arm Side Laterals” : 9.10105
 }
 
 Middle_Back_exercises: {
-	“T-Bar RowwithHandle" : 9.50024
-	”Reverse Grip Bent-Over Rows” : 9.20221
-	”One-Arm Long Bar Row” : 9.001
-	”One-Arm Dumbbell Row” : 9.01
-	”Seated Cable Rows” : 8.801
+	“T-Bar RowwithHandle" : 9.50060024
+	”Reverse Grip Bent-Over Rows” : 9.200054221
+	”One-Arm Long Bar Row” : 9.000861
+	”One-Arm Dumbbell Row” : 9.0001
+	”Seated Cable Rows” : 8.800761
 }
 
 Calves_exercises: {
-	“Smith Machine Calf Raise” : 9.21
-	”Standing Calf Raises” : 9.08
-	”Standing Dumbbell Calf Raise” : 8.888
-	”Seated Calf Raise” : 8.7777
-	”Rocking Standing Calf Raise” : 8.77777
-	”Standing Barbell Calf Raise” : 8.2222
+	“Smith Machine Calf Raise” : 9.20071
+	”Standing Calf Raises” : 9.008
+	”Standing Dumbbell Calf Raise” : 8.8088
+	”Seated Calf Raise” : 8.70777
+	”Rocking Standing Calf Raise” : 8.707777
+	”Standing Barbell Calf Raise” : 8.20222
 }
 
 Hamstrings_exercises: {
-	“Lying Leg Curls” : 8.904 
-	”Barbell Deadlift” : 9.4004
-	”Leg Curl” : 8.511
+	“Lying Leg Curls” : 8.9004 
+	”Barbell Deadlift” : 9.40004
+	”Leg Curl” : 8.5011
 	”Romanian Deadlift With Dumbbells” : 9.41
 }
 
@@ -157,7 +157,11 @@ Traps_exercises: {
 	”Standing Dumbbell Upright Row”: 8.70071
 }
 
-Lower_Back_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Lower_Back_exercises: {
+	“Axle Deadlift” : 9.10012
+	”Deficit Deadlift” : 9.4001245
+	”Hyperextensions (Back Extensions)” : 9.1001245
+}
 
 Glutes_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
