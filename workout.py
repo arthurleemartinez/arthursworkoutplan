@@ -180,5 +180,5 @@ Abductors_exercises: {
 	”Hip Circles (prone)” :9.20015556
 }
 #Abductors and Adductors are not a sufficient component of a 3 group workout
-def addabdcorrect(:
+def addabdcorrect():
 	
