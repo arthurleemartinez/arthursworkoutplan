@@ -48,7 +48,7 @@ Biceps_exercises: {
 	“Incline Hammer Curls” : 9.5
 	”Wide-Grip Standing Barbell Curl” : 9.3
 	”Spider Curl” : 9.2
-	”EZ-Bar Curl” : 9.1
+	”EZBar Curl” : 9.1
 	”Hammer Curls” : 9.1
 	”Zottman Curl” : 9.1
 	”Concentration Curls” : 9.0
