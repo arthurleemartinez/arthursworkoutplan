@@ -50,19 +50,66 @@ Biceps_exercises: {
 	”Spider Curl” : 9.2
 	”EZ-Bar Curl” : 9.1
 	”Hammer Curls” : 9.1
-	”Zottman Curl” : 9.1, ”Concentration Curls” : 9.0, ”Barbell Curl” : 9.0”, “Dumbbell Bicep Curl” : 8.9}
+	”Zottman Curl” : 9.1
+	”Concentration Curls” : 9.0
+	”Barbell Curl” : 9.0
+	“Dumbbell Bicep Curl” : 8.9
+}
 
-Abdominals_exercises: {“One-Arm Medicine Ball Slam” : 9.5, ”Landmine180s” : 9.5, ”Plank” : 9.3, ”Elbow to Knee” : 9.1, ”Plate-Twist” : 9.0, ”Bottom’s Up” : 9.3}
+Abdominals_exercises: {
+	“One-Arm Medicine Ball Slam” : 9.5
+	”Landmine180s” : 9.5
+	”Plank” : 9.3
+	”Elbow to Knee” : 9.1
+	”Plate-Twist” : 9.0
+	”Bottom’s Up” : 9.3
+}
 
-Lats_exercises: {“Weighted Pull Ups” : 9.5, ”Pullups” : 9.2,  ”Chin-Up” : 9.1, ”Wide-Grip Pull-Up” : 8.9, ”Close-Grip Front Lat Pulldown” : 8.8, ”Shotgun Row” : 8.8}
+Lats_exercises: {
+	“Weighted Pull Ups” : 9.5, 
+	”Pullups” : 9.2
+	”Chin-Up” : 9.1
+	”Wide-Grip Pull-Up” : 8.9
+	”Close-Grip Front Lat Pulldown” : 8.8
+	”Shotgun Row” : 8.8
+}
 
-Triceps_exercises: {“Dips - Triceps Version” : 9.4, ”Decline EZ Bar Triceps Extension” : 9.3, ”Dumbbell Floor Press” : 9.3, ”Close-Grip Barbell Bench Press” : 9.1, ”Triceps Pushdown - V-Bar Attachment” : 9.1, ”Weighted Bench Dip” : 9.1, ”Push-Ups - Close Triceps Position” : 9.0, ”Close-Grip Barbell Bench Press” : 9.1}
+Triceps_exercises: {
+	“Dips - Triceps Version” : 9.4
+	”Decline EZ Bar Triceps Extension” : 9.3
+	”Dumbbell Floor Press” : 9.3
+	”Close-Grip Barbell Bench Press” : 9.1
+	”Triceps Pushdown - V-Bar Attachment” : 9.1
+	”Weighted Bench Dip” : 9.1
+	”Push-Ups - Close Triceps Position” : 9.0
+	”Close-Grip Barbell Bench Press” : 9.1
+}
 
-Forearms_exercises: {“Seated Palm-Up Barbell Wrist Curl” : 8.7, ”Seated One-Arm Dumbbell Palms-Up Wrist Curl : 9.0” : ”Wrist Roller” : 9.1, ”Palms-Up Barbell Wrist Curl Over A Bench” : 9.4, ”Wrist Rotations with Straight Bar” : 9.5}
+Forearms_exercises: {
+	“Seated Palm-Up Barbell Wrist Curl” : 8.7
+	”Seated One-Arm Dumbbell Palms-Up Wrist Curl : 9.0
+	”Wrist Roller” : 9.1
+	”Palms-Up Barbell Wrist Curl Over A Bench” : 9.4
+	”Wrist Rotations with Straight Bar” : 9.5
+}
 
-Shoulders_exercises: {“Single-Arm Linear Jammer” : 9.5, ”Side Laterals to Front Raise” : 9.5, ”Standing Palm-In One-Arm Dumbbell Press” : 9.4, ”Power Partials” : 9.1,  ”Seated Dumbbell Press” : 9.1, ”Side Laterals to Front Raise” : 9.5, ”Standing Palm-In One-Arm Dumbbell Press” : 9.4, ”One-Arm Side Laterals” : 9.1}
+Shoulders_exercises: {
+	“Single-Arm Linear Jammer” : 9.5
+	”Side Laterals to Front Raise” : 9.5
+	”Standing Palm-In One-Arm Dumbbell Press” : 9.4
+	”Power Partials” : 9.1
+	”Seated Dumbbell Press” : 9.1
+	”Side Laterals to Front Raise” : 9.5
+	”Standing Palm-In One-Arm Dumbbell Press” : 9.4
+	”One-Arm Side Laterals” : 9.1
+}
 
-Middle_Back_exercises: {“T-Bar Row with Handle" : 9.5, ”Reverse Grip Bent-Over Rows” : 9.2, ”One-Arm Long Bar Row” : 9.0, ”One-Arm Dumbbell Row” : 9.0, ”Seated Cable Rows” : 8.8}
+Middle_Back_exercises: {
+	“T-Bar Row with Handle" : 9.5
+	”Reverse Grip Bent-Over Rows” : 9.2
+	”One-Arm Long Bar Row” : 9.0
+	”One-Arm Dumbbell Row” : 9.0
+	”Seated Cable Rows” : 8.8}
 
 Calves_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
