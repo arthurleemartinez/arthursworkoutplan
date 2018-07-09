@@ -143,7 +143,12 @@ Hamstrings_exercises: {
 	”Romanian Deadlift With Dumbbells” : 9.41
 }
 
-Quadriceps_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Quadriceps_exercises: {
+	“Barbell Full Squat” : 9.400014
+	”Leg Press” : 9.600235
+	”Rope Jumping” : 9.200235
+	”Step Mill” : 9.100145
+}
 
 Traps_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
