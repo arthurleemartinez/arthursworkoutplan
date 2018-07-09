@@ -1,4 +1,4 @@
-#SCHEDULE PROGRAM 
+#THIS IS A SCHEDULE-BASED PROGRAM 
 #This program is a simple tool that can be used to create an optimal workout and sleep schedule for up to one month!
 #It will also give you a detailed ratings portfolio and rate your workout on a scale of 1-100
 #Ratings data was generated using calculations derived from data at https://www.bodybuilding.com/exercises/finder/?muscleid=1
