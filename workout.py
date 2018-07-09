@@ -163,11 +163,22 @@ Lower_Back_exercises: {
 	”Hyperextensions (Back Extensions)” : 9.1001245
 }
 
-Glutes_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Glutes_exercises: {
+	“Butt Lift (Bridge)” : 8.80001	   
+	”One-Legged Cable Kickback” : 9.000111
+	”Kneeling Squat” : 8.6
+}
 
-Abductors_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Adductors_exercises: {
+	“Thigh Adductor” : 9.0004555
+	”Groin and Back Stretch” : 7.100101
 
-Adductors_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
- 
- 
+}
 
+Abductors_exercises: {
+	“Thigh Abductor” : 8.200501
+	”Hip Circles (prone)” :9.20015556
+}
+#Abductors and Adductors are not a sufficient component of a 3 group workout
+def addabdcorrect(:
+	
