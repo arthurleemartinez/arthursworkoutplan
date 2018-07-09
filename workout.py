@@ -12,9 +12,11 @@ import math
 from random import *
 import time
 import datetime
+import weekday
 
 #Initialize program and generic user interface
 print "Current date and time: " , datetime.datetime.now()
+print "Current weekday: "datetime.datetime.today().weekday()
 user_weight = raw_input("Please Enter Your Weight")
 
 #The 3-day group performed one set of each exercise three times a week. 
@@ -42,6 +44,9 @@ def muscle_groups(day_of_month, choose_muscle_areas):
 	     day_of_month =<30       	
 	
 week = [“Sunday”, “Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”]
+
+def day(week):
+	day = sunday 
 
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
 
