@@ -95,7 +95,7 @@ Calves_exercises: {
 	“Smith Machine Calf Raise” : 9.20071
 	”Standing Calf Raises” : 9.008
 	”Standing Dumbbell Calf Raise” : 8.8088
-	”Seated Calf Raise” : 8.70777
+	”Seated Calf Raise” : 8.7007
 	”Rocking Standing Calf Raise” : 8.707777
 	”Standing Barbell Calf Raise” : 8.20222
 }
@@ -142,10 +142,21 @@ while day_of_month =< 30:
      day_of_month = day_of_month + 1
 #The 3-day group performed only one set of each exercise three times a week. 
 sets = 1
-
+#Dictionary that referrences the random muscle areas and turns them into an array of short lists.
+def assign_weeklymuscleareas:
+     day1 = [rca1, rca2, rca3]
+     if (rca1 or rca2 or rca3) == (Abductors or Adductors):
+          day1 = day1.append(rca4)
+     else: return day1
+     day2 = [rca4, rca5, rca6]
+     while day2 = true:
+         if ((rca4 or rca5 or rca6) == (rca3 or rca2 or rca1) or ((rca1 or rca2 or rca3) == (Abductors or Adductors)):
+               day2 = [rca4, rca5, rca6]
+               break:
+          
 #Function that randomly chooses the muscles areas to be trained (based on their timing relative to closest past workouts)
-def choose_muscleareas(muscle_areas, day):
-     for in range(1, 31, [1])
+def choose_weeklymuscleareas(muscle_areas):
+     for muscle_areas in range(1, 31, [1])
      rca1 = random.choice(muscle_areas)
      rca2 = random.choice(muscle_areas)
      if rca2 == rca1:
