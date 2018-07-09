@@ -9,7 +9,7 @@ SCHEDULE PROGRAM
 
 #Import Python Modules:
 import math
-Import random
+from random import *
 import time
 import datetime
 
