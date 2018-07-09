@@ -15,18 +15,22 @@ import datetime
 
 #initialize program and generic user interface
 print "Current date and time: " , datetime.datetime.now()
-user_weight = raw_input(‘Please Enter Your Weight’)
+user_weight = raw_input("Please Enter Your Weight")
 
 #The 3-day group performed one set of each exercise three times a week. 
 sets = 1
+
 def choose_exercises:
-	if 
-def Day_plan(muscle_areas):
+	if  
+def Day_plan(muscle_areas, choose_exercises):
      for in range(1, 31, [1])
      rc1 = random.choice(muscle_areas)
-     if rc1 =  rc2 
+     rc2 = random.choice(muscle_areas)
+     if rc2 == rc
 	
-daysof_week = {“Sunday” : 0, “Monday” : 1, “Tuesday” : 2, “Wednesday” : 3, “Thursday” : 4, “Friday” : 5, “Saturday” : 6} 
+
+
+week = {“Sunday” : 0, “Monday” : 1, “Tuesday” : 2, “Wednesday” : 3, “Thursday” : 4, “Friday” : 5, “Saturday2” : 6}
 
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
 
