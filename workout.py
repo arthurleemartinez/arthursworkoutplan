@@ -51,92 +51,97 @@ def day(week):
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
 
 Chest_exercises: {
-	“Dumbbell Bench Press” : 9.2
-	”Pushups” : 9.2
-	”Dumbbell Flyes” : 9.1
-	“Incline Dumbbell Bench Press” : 9.1
-	“Medium-Grip Barbell Bench Press” : 9.0
-	“Chest Dips” : 9.0
+	“Dumbbell Bench Press” : 9.200341
+	”Pushups” : 9.205362346
+	”Dumbbell Flyes” : 9.1043562
+	“Incline Dumbbell Bench Press” : 9.100678
+	“Medium-Grip Barbell Bench Press” : 9.090678
+	“Chest Dips” : 9.000567
 }
 
 Biceps_exercises: {
-	“Incline Hammer Curls” : 9.5
-	”Wide-Grip Standing Barbell Curl” : 9.3
-	”Spider Curl” : 9.2
-	”EZBar Curl” : 9.1
-	”Hammer Curls” : 9.1
-	”Zottman Curl” : 9.1
-	”Concentration Curls” : 9.0
-	”Barbell Curl” : 9.0
-	“Dumbbell Bicep Curl” : 8.9
+	“Incline Hammer Curls” : 9.5006794
+	”Wide-Grip Standing Barbell Curl” : 9.30003245
+	”Spider Curl” : 9.200004576
+	”EZBar Curl” : 9.10004576
+	”Hammer Curls” : 9.1000234
+	”Zottman Curl” : 9.1000045672
+	”Concentration Curls” : 9.0000036421
+	”Barbell Curl” : 9.00074721
+	“Dumbbell Bicep Curl” : 8.900034612
 }
 
 Abdominals_exercises: {
-	“One-Arm Medicine Ball Slam” : 9.5
-	”Landmine180s” : 9.5
-	”Plank” : 9.3
-	”Elbow to Knee” : 9.1
-	”Plate-Twist” : 9.0
-	”Bottom’s Up” : 9.3
+	“One-Arm Medicine Ball Slam” : 9.12341
+	”Landmine180s” : 9.50000235
+	”Plank” : 9.3000004578
+	”Elbow to Knee” : 9.100000568
+	”Plate-Twist” : 9.000003467
+	”Bottom’s Up” : 9.300000346
 }
 
 Lats_exercises: {
-	“Weighted Pull Ups” : 9.5, 
-	”Pullups” : 9.2
-	”Chin-Up” : 9.1
-	”Wide-Grip Pull-Up” : 8.9
-	”Close-Grip Front Lat Pulldown” : 8.8
-	”Shotgun Row” : 8.8
+	“Weighted Pull Ups” : 9.50000436, 
+	”Pullups” : 9.2000235
+	”Chin-Up” : 9.10000012
+	”Wide-Grip Pull-Up” : 8.90000395
+	”Close-Grip Front Lat Pulldown” : 8.80000001
+	”Shotgun Row” : 8.8000001
 }
 
 Triceps_exercises: {
-	“Dips - Triceps Version” : 9.4
-	”Decline EZ Bar Triceps Extension” : 9.3
-	”Dumbbell Floor Press” : 9.3
-	”Close-Grip Barbell Bench Press” : 9.1
-	”Triceps Pushdown - V-Bar Attachment” : 9.1
-	”Weighted Bench Dip” : 9.1
-	”Push-Ups - Close Triceps Position” : 9.0
-	”Close-Grip Barbell Bench Press” : 9.1
+	“Dips - Triceps Version” : 9.40000012
+	”Decline EZ Bar Triceps Extension” : 9.300012
+	”Dumbbell Floor Press” : 9.300003461
+	”Close-Grip Barbell Bench Press” : 9.10041325
+	”Triceps Pushdown - V-Bar Attachment” : 9.100311
+	”Weighted Bench Dip” : 9.100003
+	”Push-Ups - Close Triceps Position” : 9.0000346
+	”Close-Grip Barbell Bench Press” : 9.10046
 }
 
 Forearms_exercises: {
-	“Seated Palm-Up Barbell Wrist Curl” : 8.7
-	”Seated One-Arm Dumbbell Palms-Up Wrist Curl : 9.0
-	”Wrist Roller” : 9.1
-	”Palms-Up Barbell Wrist Curl Over A Bench” : 9.4
-	”Wrist RotationswithStraight Bar” : 9.5
+	“Seated Palm-Up Barbell Wrist Curl” : 8.70046
+	”Seated One-Arm Dumbbell Palms-Up Wrist Curl : 9.00034
+	”Wrist Roller” : 9.100325
+	”Palms-Up Barbell Wrist Curl Over A Bench” : 9.40235
+	”Wrist RotationswithStraight Bar” : 9.500162
 }
 
 Shoulders_exercises: {
-	“Single-Arm Linear Jammer” : 9.5
-	”Side Laterals to Front Raise” : 9.5
-	”Standing Palm-In One-Arm Dumbbell Press” : 9.4
-	”Power Partials” : 9.1
-	”Seated Dumbbell Press” : 9.1
-	”Side Laterals to Front Raise” : 9.5
-	”Standing Palm-In One-Arm Dumbbell Press” : 9.4
-	”One-Arm Side Laterals” : 9.1
+	“Single-Arm Linear Jammer” : 9.50007
+	”Side Laterals to Front Raise” : 9.50005
+	”Standing Palm-In One-Arm Dumbbell Press” : 9.40003
+	”Power Partials” : 9.10005
+	”Seated Dumbbell Press” : 9.10002
+	”Side Laterals to Front Raise” : 9.50012
+	”Standing Palm-In One-Arm Dumbbell Press” : 9.4001
+	”One-Arm Side Laterals” : 9.1105
 }
 
 Middle_Back_exercises: {
-	“T-Bar RowwithHandle" : 9.5
-	”Reverse Grip Bent-Over Rows” : 9.2
-	”One-Arm Long Bar Row” : 9.0
-	”One-Arm Dumbbell Row” : 9.0
-	”Seated Cable Rows” : 8.8
+	“T-Bar RowwithHandle" : 9.50024
+	”Reverse Grip Bent-Over Rows” : 9.20221
+	”One-Arm Long Bar Row” : 9.001
+	”One-Arm Dumbbell Row” : 9.01
+	”Seated Cable Rows” : 8.801
 }
 
 Calves_exercises: {
-	“Smith Machine Calf Raise” : 9.2
-	”Standing Calf Raises” : 9.0
-	”Standing Dumbbell Calf Raise” : 8.8
-	”Seated Calf Raise” : 8.7
-	”Rocking Standing Calf Raise” : 8.7
-	”Standing Barbell Calf Raise” : 8.2
+	“Smith Machine Calf Raise” : 9.21
+	”Standing Calf Raises” : 9.08
+	”Standing Dumbbell Calf Raise” : 8.888
+	”Seated Calf Raise” : 8.7777
+	”Rocking Standing Calf Raise” : 8.77777
+	”Standing Barbell Calf Raise” : 8.2222
 }
 
-Hamstrings_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Hamstrings_exercises: {
+	“Lying Leg Curls” : 8.904 
+	”Barbell Deadlift” : 9.4004
+	”Leg Curl” : 8.511
+	”Romanian Deadlift With Dumbbells” : 9.41
+}
 
 Quadriceps_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
