@@ -13,6 +13,12 @@ from random import *
 import time
 import datetime
 import weekday
+
+#Initialize program and generic user interface
+print "Current date and time: " , datetime.datetime.now()
+print "Current weekday: " , datetime.datetime.today().weekday()
+user_weight = raw_input("Please Enter Your Weight")
+
 #This is a list of all the popularly trained muscle groups
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
 #Exercise dictionaries that referrences midly obfuscated ratings provided by bodybuilding.com
@@ -129,15 +135,16 @@ Abductors_exercises: {
 	“Thigh Abductor” : 8.200501
 	”Hip Circles (prone)” :9.20015556
 }
-#Initialize program and generic user interface
-print "Current date and time: " , datetime.datetime.now()
-print "Current weekday: "datetime.datetime.today().weekday()
-user_weight = raw_input("Please Enter Your Weight")
-
-#The 3-day group performed one set of each exercise three times a week. 
+#This "month" is reffering the next 30 days of your scientifically-backed physical fitness plan!
+day_of_month = 0
+#while loop that takes the next functions accross 30 days of iteration
+while day_of_month =< 30:
+     day_of_month = day_of_month + 1
+#The 3-day group performed only one set of each exercise three times a week. 
 sets = 1
+
 #Function that randomly chooses exercises for muscle areas that have not been worked out too recently 
-def choose_exercises(muscle_areas, day((week))
+def choose_exercises(muscle_areas, day_of_month)
 	if  
 #Function that randomly chooses the muscles areas to be trained (based on their timing relative to closest past workouts)
 def choose_muscleareas(muscle_areas, day):
@@ -146,6 +153,13 @@ def choose_muscleareas(muscle_areas, day):
      rca2 = random.choice(muscle_areas)
      if rca2 == rc1:
           rca2 = random.choice(muscle_areas) 
+	
+def muscle_groups(day_of_month, choose_muscle_areas):
+     day_of_month = 0
+     day_of_month +=1
+     while day_of_month +=1:
+	     day_of_month =<30
+     		     
 #Function that iterates accross the entire month and returns data about the basic workout of the day
 def Day_plan(muscle_areas, choose_exercises):
      for in range(1, 31, [1])
@@ -153,16 +167,13 @@ def Day_plan(muscle_areas, choose_exercises):
      rca2 = random.choice(muscle_areas)
      if rca2 == rc1:
           rca2 = random.choice(muscle_areas) 
-	
-def muscle_groups(day_of_month, choose_muscle_areas):
-	day_of_month = 0
-	while day_of_month +=1:
-	     day_of_month =<30       	
+
 #There are 7 days in a week, and the index starts at 0 (Monday)	
 week = [“Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”, “Sunday”]
 #Function that turns the value returned by weekday module into a variable
-def day(week):
-	day =  datetime.datetime.today().weekday()
+def week):
+     for days in week:
+          daydatetime.datetime.today().weekday()
 		     
 #Abductors and Adductors are not a sufficient component of a 3 group workout
 def addabdcorrect():
