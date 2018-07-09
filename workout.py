@@ -105,7 +105,7 @@ Shoulders_exercises: {
 }
 
 Middle_Back_exercises: {
-	“T-Bar Row with Handle" : 9.5
+	“T-Bar RowwithHandle" : 9.5
 	”Reverse Grip Bent-Over Rows” : 9.2
 	”One-Arm Long Bar Row” : 9.0
 	”One-Arm Dumbbell Row” : 9.0
