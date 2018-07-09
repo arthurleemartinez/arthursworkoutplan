@@ -90,7 +90,7 @@ Forearms_exercises: {
 	”Seated One-Arm Dumbbell Palms-Up Wrist Curl : 9.0
 	”Wrist Roller” : 9.1
 	”Palms-Up Barbell Wrist Curl Over A Bench” : 9.4
-	”Wrist Rotations with Straight Bar” : 9.5
+	”Wrist RotationswithStraight Bar” : 9.5
 }
 
 Shoulders_exercises: {
