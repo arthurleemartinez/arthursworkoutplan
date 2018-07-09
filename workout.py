@@ -143,9 +143,6 @@ while day_of_month =< 30:
 #The 3-day group performed only one set of each exercise three times a week. 
 sets = 1
 
-#Function that randomly chooses exercises for muscle areas that have not been worked out too recently 
-def choose_exercises(muscle_areas, day_of_month)
-	if  
 #Function that randomly chooses the muscles areas to be trained (based on their timing relative to closest past workouts)
 def choose_muscleareas(muscle_areas, day):
      for in range(1, 31, [1])
@@ -189,6 +186,9 @@ def choose_muscleareas(muscle_areas, day):
      elif (rca7 == rca2) or (rca7 == rca1):
           return rca7
      else:
+#Function that randomly chooses exercises for muscle areas that have not been worked out too recently 
+def choose_exercises(muscle_areas, day_of_month)
+	if  
 #not sure what or if necessary	
 def muscle_groups(day_of_month, choose_muscle_areas):
      day_of_month = 0
