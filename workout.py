@@ -171,7 +171,7 @@ Glutes_exercises: {
 
 Adductors_exercises: {
 	“Thigh Adductor” : 9.0004555
-	”Groin and Back Stretch” : 7.100101
+	”GroinandBack Stretch” : 7.100101
 
 }
 
