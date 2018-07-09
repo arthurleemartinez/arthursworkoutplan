@@ -1,5 +1,5 @@
 #THIS IS A SCHEDULE-BASED PROGRAM 
-#This program is a simple tool that can be used to create an optimal workout and sleep schedule for up to one month!
+#This program is a simple tool that can be used to create an optimal workout and sleep schedule for up to one month (Current max is 7 days)!
 #It will also give you a detailed ratings portfolio and rate your workout on a scale of 1-100
 #Ratings data was generated using calculations derived from data at https://www.bodybuilding.com/exercises/finder/?muscleid=1
 #Users will choose how many days of planning they need, as well as select from a choice of parameters regarding which muscles they want to train.
@@ -156,10 +156,39 @@ def choose_muscleareas(muscle_areas, day):
      else: 
           return rca2
      rca3 = random.choice(muscle_areas)
-     while (rca3 == rca2) or (rca3 == rca1):
+     if (rca3 == rca2) or (rca3 == rca1):
           rca3 = random.choice(muscle_areas)
      else:
-          return rca3 
+          return rca3
+     rca4 = random.choice(muscle_areas)
+     if (rca3 == rca2) or (rca3 == rca1):
+          rca3 = random.choice(muscle_areas)
+     else:
+          return rca3
+     rca5 = random.choice(muscle_areas)
+     if (rca5 == rca4) or (rca5 == rca3):
+          rca5 = random.choice(muscle_areas)
+     elif (rca5 == rca3) or (rca5 == rca2):
+          rca5 = random.choice(muscle_areas)
+     elif rca5 == rca1:
+          return rca5
+     else:
+     rca6 = random.choice(muscle_areas)
+     if (rca6 == rca5) or (rca6 == rca4):
+          rca6 = random.choice(muscle_areas)
+     elif (rca6 == rca3) or (rca6 == rca2):
+          rca6 = random.choice(muscle_areas)
+     elif rca6 == rca1:
+          return rca6
+     else:
+     rca7 = random.choice(muscle_areas)
+     if (rca7 == rca6) or (rca7 == rca5):
+          rca7 = random.choice(muscle_areas)
+     elif (rca7 == rca4) or (rca7 == rca3):
+          rca7 = random.choice(muscle_areas)
+     elif (rca7 == rca2) or (rca7 == rca1):
+          return rca7
+     else:
 #not sure what or if necessary	
 def muscle_groups(day_of_month, choose_muscle_areas):
      day_of_month = 0
@@ -184,4 +213,5 @@ def weekdayfinder():
 		     
 #Abductors and Adductors are not a sufficient component of a 3 group workout
 def addabdcorrect():
+     if 
 	
