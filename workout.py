@@ -1,17 +1,18 @@
 SCHEDULE PROGRAM 
 #This program is a simple tool that can be used to create an optimal workout and sleep schedule for up to one month!
 #It will also give you a detailed ratings portfolio and rate your workout on a scale of 1-100
-*/Ratings data was generated using calculations derived from data at https://www.bodybuilding.com/exercises/finder/?muscleid=1/*
-*/Users will choose how many days of planning they need, as well as select from a choice of parameters regarding which muscles they want to train/*
-*/Users will also choose their starting day”
-*/Follow-up research on a group of elite Norwegian powerlifters also showed better results with more frequent training. Subjects taking part in the study – 13 men and 3 women – were assigned to one of two groups. They all followed the exact same workout routine, but with one important difference. Group one trained three times each week. Group two did the same volume of work, but over six weekly sessions. Study subjects training three times a week simply performed twice as many sets in each workout./* 
-*/Even though the total weekly training volume was the same, it was the guys training each muscle group three times a week who saw the greatest gains in both size and strength./*
-/*The 3-day group performed one set of each exercise three times a week. The 1-day group performed three sets of each exercise once per week./*
+#Ratings data was generated using calculations derived from data at https://www.bodybuilding.com/exercises/finder/?muscleid=1
+#Users will choose how many days of planning they need, as well as select from a choice of parameters regarding which muscles they want to train.
+#Follow-up research on a group of elite Norwegian powerlifters also showed better results with more frequent training. Subjects taking part in the study – 13 men and 3 women – were assigned to one of two groups. They all followed the exact same workout routine, but with one important difference. Group one trained three times each week. Group two did the same volume of work, but over six weekly sessions. Study subjects training three times a week simply performed twice as many sets in each workout 
+#Even though the total weekly training volume was the same, it was the guys training each muscle group three times a week who saw the greatest gains in both size and strength.
+#The 3-day group performed one set of each exercise three times a week. The 1-day group performed three sets of each exercise once per week.
+
 #Import Python Modules:
 import math
 Import random
 import time
 import datetime
+
 #initialize program and generic user interface
 print "Current date and time: " , datetime.datetime.now()
 user_weight = raw_input(‘Please Enter Your Weight’)
