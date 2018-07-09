@@ -22,7 +22,7 @@ user_weight = raw_input("Please Enter Your Weight")
 #The 3-day group performed one set of each exercise three times a week. 
 sets = 1
 
-def choose_exercises:
+def choose_exercises(muscle_areas, day((week))
 	if  
 
 def choose_muscleareas(muscle_areas, day):
@@ -42,14 +42,14 @@ def muscle_groups(day_of_month, choose_muscle_areas):
 	day_of_month = 0
 	while day_of_month +=1:
 	     day_of_month =<30       	
-	
-week = [“Sunday”, “Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”]
-
+#There are 7 days in a week, and the index starts at 0 (Monday)	
+week = [“Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”, “Sunday”]
+#Function that turns the value returned by weekday module into a variable
 def day(week):
-	day = sunday 
-
+	day =  datetime.datetime.today().weekday()
+#This is a list of all the popularly trained muscle groups
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
-
+#Exercise dictionary that referrences midly obfuscated ratings provided by bodybuilding.com
 Chest_exercises: {
 	“Dumbbell Bench Press” : 9.200341
 	”Pushups” : 9.205362346
