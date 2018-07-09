@@ -1,4 +1,4 @@
-SCHEDULE PROGRAM 
+#SCHEDULE PROGRAM 
 #This program is a simple tool that can be used to create an optimal workout and sleep schedule for up to one month!
 #It will also give you a detailed ratings portfolio and rate your workout on a scale of 1-100
 #Ratings data was generated using calculations derived from data at https://www.bodybuilding.com/exercises/finder/?muscleid=1
@@ -13,7 +13,7 @@ from random import *
 import time
 import datetime
 
-#initialize program and generic user interface
+#Initialize program and generic user interface
 print "Current date and time: " , datetime.datetime.now()
 user_weight = raw_input("Please Enter Your Weight")
 
@@ -22,6 +22,13 @@ sets = 1
 
 def choose_exercises:
 	if  
+
+def choose_muscleareas(muscle_areas, day):
+     for in range(1, 31, [1])
+     rca1 = random.choice(muscle_areas)
+     rca2 = random.choice(muscle_areas)
+     if rca2 == rc1:
+          rca2 = random.choice(muscle_areas) 
 def Day_plan(muscle_areas, choose_exercises):
      for in range(1, 31, [1])
      rca1 = random.choice(muscle_areas)
@@ -29,8 +36,11 @@ def Day_plan(muscle_areas, choose_exercises):
      if rca2 == rc1:
           rca2 = random.choice(muscle_areas) 
 	
-
-
+def muscle_groups(day_of_month, choose_muscle_areas):
+	day_of_month = 0
+	while day_of_month +=1:
+	     day_of_month =<30       	
+	
 week = [“Sunday”, “Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”]
 
 muscle_areas = [“Chest”, “Biceps”, “Abdominals”, “Lats”, “Triceps”, “Forearms”, “Shoulders”, “Middle Back”, “Calves”,  “Hamstrings”,  “Quadriceps”,  “Traps”,  “Lower Back”,  “Glutes”, “Abductors”, “Adductors”]
