@@ -112,7 +112,14 @@ Middle_Back_exercises: {
 	”Seated Cable Rows” : 8.8
 }
 
-Calves_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
+Calves_exercises: {
+	“Smith Machine Calf Raise” : 9.2
+	”Standing Calf Raises” : 9.0
+	”Standing Dumbbell Calf Raise” : 8.8
+	”Seated Calf Raise” : 8.7
+	”Rocking Standing Calf Raise” : 8.7
+	”Standing Barbell Calf Raise” : 8.2
+}
 
 Hamstrings_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
