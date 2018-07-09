@@ -151,9 +151,16 @@ def choose_muscleareas(muscle_areas, day):
      for in range(1, 31, [1])
      rca1 = random.choice(muscle_areas)
      rca2 = random.choice(muscle_areas)
-     if rca2 == rc1:
-          rca2 = random.choice(muscle_areas) 
-	
+     if rca2 == rca1:
+          rca2 = random.choice(muscle_areas)
+     else: 
+          return rca2
+     rca3 = random.choice(muscle_areas)
+     while (rca3 == rca2) or (rca3 == rca1):
+          rca3 = random.choice(muscle_areas)
+     else:
+          return rca3 
+#not sure what or if necessary	
 def muscle_groups(day_of_month, choose_muscle_areas):
      day_of_month = 0
      day_of_month +=1
@@ -171,7 +178,7 @@ def Day_plan(muscle_areas, choose_exercises):
 #There are 7 days in a week, and the index starts at 0 (Monday)	
 week = [“Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”, “Sunday”]
 #Function that turns the value returned by weekday module into a variable
-def week):
+def weekdayfinder():
      for days in week:
           daydatetime.datetime.today().weekday()
 		     
