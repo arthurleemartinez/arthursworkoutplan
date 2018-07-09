@@ -49,7 +49,7 @@ Forearms_exercises: {“Seated Palm-Up Barbell Wrist Curl” : 8.7, ”Seated On
 
 Shoulders_exercises: {“Single-Arm Linear Jammer” : 9.5, ”Side Laterals to Front Raise” : 9.5, ”Standing Palm-In One-Arm Dumbbell Press” : 9.4, ”Power Partials” : 9.1,  ”Seated Dumbbell Press” : 9.1, ”Side Laterals to Front Raise” : 9.5, ”Standing Palm-In One-Arm Dumbbell Press” : 9.4, ”One-Arm Side Laterals” : 9.1}
 
-Middle_Back_exercises: {“T-Bar Row with Handle : 9.5, ”Reverse Grip Bent-Over Rows” : 9.2, ”One-Arm Long Bar Row” : 9.0, ”One-Arm Dumbbell Row” : 9.0, ”Seated Cable Rows” : 8.8}
+Middle_Back_exercises: {“T-Bar Row with Handle" : 9.5, ”Reverse Grip Bent-Over Rows” : 9.2, ”One-Arm Long Bar Row” : 9.0, ”One-Arm Dumbbell Row” : 9.0, ”Seated Cable Rows” : 8.8}
 
 Calves_exercises: {“”:””:””:””:””:””:””:””:””:””:””:””:}
 
