@@ -140,8 +140,12 @@ day_of_month = 0
 #while loop that takes the next functions accross 30 days of iteration
 while day_of_month =< 30:
      day_of_month = day_of_month + 1
+
+#Both routines involved three sets of nine different exercises working the whole body.
+exercises_per_day = 9
 #The 3-day group performed only one set of each exercise three times a week. 
 sets = 1
+
 #Dictionary that referrences the random muscle areas and turns them into an array of short lists.
 def assign_weeklymuscleareas:
      day1 = [rca1, rca2, rca3]
@@ -155,6 +159,8 @@ def assign_weeklymuscleareas:
                break:
           
 #Function that randomly chooses the muscles areas to be trained (based on their timing relative to closest past workouts)
+#rca[x] is equal to a UNIQUE random choice for up to 12 muscle groups
+#
 def choose_weeklymuscleareas(muscle_areas):
      for muscle_areas in range(1, 8, 1)
      rc[i]	     
