@@ -218,28 +218,36 @@ def choose_weeklymuscleareas(muscle_areas):
      rca9 = random.choice(muscle_areas)
      else:
           return rca9
+     #random choice number 10 begins next
      rca10 = random.choice(muscle_areas)
      if (rca10 == rca9) or (rca10 == rca8):
           rca10 = random.choice(muscle_areas)
-     elif (rca10 == rca7) or (rca9 == rca6):
-          rca9 = random.choice(muscle_areas)
-     elif (rca10 == rca5) or (rca9 == rca4):
-          rca9 = random.choice(muscle_areas)
-     elif (rca10 == rca3) or (rca9 == rca2):
-          rca9 = random.choice(muscle_areas)
-     elif rca9 == rca1:
-          rca9 = random.choice(muscle_areas)
+     elif (rca10 == rca7) or (rca10 == rca6):
+          rca10 = random.choice(muscle_areas)
+     elif (rca10 == rca5) or (rca10 == rca4):
+          rca10 = random.choice(muscle_areas)
+     elif (rca10 == rca3) or (rca10 == rca2):
+          rca10 = random.choice(muscle_areas)
+     elif rca10 == rca1:
+          rca10 = random.choice(muscle_areas)
      else:
           return rca10
+     #random choice number 11 begins next	     
      rca11 = random.choice(muscle_areas)
-     if (rca11 == rca10) or (rca5 == rca3):
-          rca5 = random.choice(muscle_areas)
-     elif (rca5 == rca3) or (rca5 == rca2):
-          rca5 = random.choice(muscle_areas)
-     elif rca5 == rca1:
-          return rca5
+     if (rca11 == rca10) or (rca11 == rca9):
+          rca11 = random.choice(muscle_areas)
+     elif (rca11 == rca8) or (rca11 == rca7):
+          rca11 = random.choice(muscle_areas)
+     elif (rca11 == rca6) or (rca11 == rca5):
+          rca11 = random.choice(muscle_areas)
+     elif (rca11 == rca4) or (rca11 == rca3):
+          rca11 = random.choice(muscle_areas)
+     elif (rca11 == rca2) or (rca11 == rca1):
+          rca11 = random.choice(muscle_areas)
      else:
-     rca6 = random.choice(muscle_areas)
+          return rca11     
+     #random choice 12 begins next
+     rca12 = random.choice(muscle_areas)
      if (rca6 == rca5) or (rca6 == rca4):
           rca6 = random.choice(muscle_areas)
      elif (rca6 == rca3) or (rca6 == rca2):
