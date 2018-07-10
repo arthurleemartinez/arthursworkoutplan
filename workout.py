@@ -135,11 +135,13 @@ Abductors_exercises: {
 	“Thigh Abductor” : 8.200501
 	”Hip Circles (prone)” :9.20015556
 }
+	
 #This "month" is reffering the next 30 days of your scientifically-backed physical fitness plan!
 day_of_month = 0
 #while loop that takes the next functions accross 30 days of iteration
-while day_of_month =< 30:
-     day_of_month = day_of_month + 1
+def day_of_monthloop:
+     while day_of_month =< 30:
+          day_of_month = day_of_month + 1
 
 #Both routines involved three sets of nine different exercises working the whole body.
 exercises_per_day = 9
@@ -147,7 +149,7 @@ exercises_per_day = 9
 sets = 1
 
 #Dictionary that referrences the random muscle areas and turns them into an array of short lists.
-def assign_weeklymuscleareas:
+def assign_weeklymuscleareas(rca1, rca2, rca3, rca4, rca5, rca6, rca7, rca8, rca9, rca10, rca11, rca12, day1, day2, day3, day4, day5, day6, day7):
      day1 = [rca1, rca2, rca3]
      if (rca1 or rca2 or rca3) == (Abductors or Adductors):
           day1 = day1.append(rca4)
@@ -268,16 +270,6 @@ def choose_weeklymuscleareas(muscle_areas):
           rca12 = random.choice(muscle_areas)
      else:
           return rca12
- 
-#Function that randomly chooses exercises for muscle areas that have not been worked out too recently 
-def choose_exercises(muscle_areas, day_of_month)
-	if  
-#not sure what or if necessary	
-def muscle_groups(day_of_month, choose_muscle_areas):
-     day_of_month = 0
-     day_of_month +=1
-     while day_of_month +=1:
-	     day_of_month =<30
 def day_plan(i):
      for i in range(0, 31, 1):
           dayplan[1] = [rca1, rca2, rca3]
