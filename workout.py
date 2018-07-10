@@ -247,22 +247,22 @@ def choose_weeklymuscleareas(muscle_areas):
      else:
           return rca11     
      #random choice 12 begins next
-     rca12 = random.choice(muscle_areas)
-     if (rca6 == rca5) or (rca6 == rca4):
-          rca6 = random.choice(muscle_areas)
-     elif (rca6 == rca3) or (rca6 == rca2):
-          rca6 = random.choice(muscle_areas)
-     elif rca6 == rca1:
-          return rca6
+     rca12 = random.choice(muscle_areas)     
+     if (rca12 == rca11) or (rca12 == rca10):
+          rca12 = random.choice(muscle_areas)
+     elif (rca12 == rca9) or (rca12 == rca8):
+          rca12 = random.choice(muscle_areas)
+     elif (rca12 == rca7) or (rca12 == rca6):
+          rca12 = random.choice(muscle_areas)
+     elif (rca12 == rca5) or (rca12 == rca4):
+          rca12 = random.choice(muscle_areas)
+     elif (rca12 == rca3) or (rca12 == rca2):
+          rca12 = random.choice(muscle_areas)
+     elif (rca12 == rca1):
+          rca12 = random.choice(muscle_areas)
      else:
-     rca7 = random.choice(muscle_areas)
-     if (rca7 == rca6) or (rca7 == rca5):
-          rca7 = random.choice(muscle_areas)
-     elif (rca7 == rca4) or (rca7 == rca3):
-          rca7 = random.choice(muscle_areas)
-     elif (rca7 == rca2) or (rca7 == rca1):
-          return rca7
-     else:
+          return rca12
+ 
 #Function that randomly chooses exercises for muscle areas that have not been worked out too recently 
 def choose_exercises(muscle_areas, day_of_month)
 	if  
