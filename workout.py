@@ -156,7 +156,8 @@ def assign_weeklymuscleareas:
           
 #Function that randomly chooses the muscles areas to be trained (based on their timing relative to closest past workouts)
 def choose_weeklymuscleareas(muscle_areas):
-     for muscle_areas in range(1, 31, [1])
+     for muscle_areas in range(1, 8, 1)
+     rc[i]	     
      rca1 = random.choice(muscle_areas)
      rca2 = random.choice(muscle_areas)
      if rca2 == rca1:
@@ -197,6 +198,63 @@ def choose_weeklymuscleareas(muscle_areas):
      elif (rca7 == rca2) or (rca7 == rca1):
           return rca7
      else:
+     rca8 = random.choice(muscle_areas)
+     rca9 = random.choice(muscle_areas)
+     if rca8 == rca7:
+          rca8 = random.choice(muscle_areas)
+     elif: 
+          return rca8
+     else:
+     rca9 = random.choice(muscle_areas)
+     if (rca9 == rca8) or (rca9 == rca7):
+          rca9 = random.choice(muscle_areas)
+     elif (rca9 == rca6) or (rca9 == rca5):
+          rca9 = random.choice(muscle_areas)
+     elif (rca9 == rca6) or (rca9 == rca5):
+     rca9 = random.choice(muscle_areas)
+     elif (rca9 == rca4) or (rca9 == rca3):
+     rca9 = random.choice(muscle_areas)
+     elif (rca9 == rca2) or (rca9 == rca1):
+     rca9 = random.choice(muscle_areas)
+     else:
+          return rca9
+     rca10 = random.choice(muscle_areas)
+     if (rca10 == rca9) or (rca10 == rca8):
+          rca10 = random.choice(muscle_areas)
+     elif (rca10 == rca7) or (rca9 == rca6):
+          rca9 = random.choice(muscle_areas)
+     elif (rca10 == rca5) or (rca9 == rca4):
+          rca9 = random.choice(muscle_areas)
+     elif (rca10 == rca3) or (rca9 == rca2):
+          rca9 = random.choice(muscle_areas)
+     elif rca9 == rca1:
+          rca9 = random.choice(muscle_areas)
+     else:
+          return rca10
+     rca11 = random.choice(muscle_areas)
+     if (rca11 == rca10) or (rca5 == rca3):
+          rca5 = random.choice(muscle_areas)
+     elif (rca5 == rca3) or (rca5 == rca2):
+          rca5 = random.choice(muscle_areas)
+     elif rca5 == rca1:
+          return rca5
+     else:
+     rca6 = random.choice(muscle_areas)
+     if (rca6 == rca5) or (rca6 == rca4):
+          rca6 = random.choice(muscle_areas)
+     elif (rca6 == rca3) or (rca6 == rca2):
+          rca6 = random.choice(muscle_areas)
+     elif rca6 == rca1:
+          return rca6
+     else:
+     rca7 = random.choice(muscle_areas)
+     if (rca7 == rca6) or (rca7 == rca5):
+          rca7 = random.choice(muscle_areas)
+     elif (rca7 == rca4) or (rca7 == rca3):
+          rca7 = random.choice(muscle_areas)
+     elif (rca7 == rca2) or (rca7 == rca1):
+          return rca7
+     else:
 #Function that randomly chooses exercises for muscle areas that have not been worked out too recently 
 def choose_exercises(muscle_areas, day_of_month)
 	if  
@@ -206,7 +264,10 @@ def muscle_groups(day_of_month, choose_muscle_areas):
      day_of_month +=1
      while day_of_month +=1:
 	     day_of_month =<30
-     		     
+def day_plan(i):
+     for i in range(0, 31, 1):
+          dayplan[1] = [rca1, rca2, rca3]
+          return  		     
 #Function that iterates accross the entire month and returns data about the basic workout of the day
 def Day_plan(muscle_areas, choose_exercises):
      for in range(1, 31, [1])
@@ -214,15 +275,14 @@ def Day_plan(muscle_areas, choose_exercises):
      rca2 = random.choice(muscle_areas)
      if rca2 == rc1:
           rca2 = random.choice(muscle_areas) 
-
+#Abductors and Adductors are not a sufficient component of a 3 group workout
+def addabdcorrect():
+     if 
 #There are 7 days in a week, and the index starts at 0 (Monday)	
 week = [“Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”, “Sunday”]
 #Function that turns the value returned by weekday module into a variable
 def weekdayfinder():
-     for days in week:
-          daydatetime.datetime.today().weekday()
+     for day(week):
+          day = daydatetime.datetime.today().weekday()
 		     
-#Abductors and Adductors are not a sufficient component of a 3 group workout
-def addabdcorrect():
-     if 
 	
