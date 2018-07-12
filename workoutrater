@@ -1,0 +1,11 @@
+#You must pick 3-4 exercises in 3-4 different muscle groups
+import Array_of_exercises.py
+todays_exercises = []
+todays_exercises = str.split(raw_input("What exercises are you doing today?"))
+def rateworkout(todays_exercises):
+  ratings = []
+  ratings = all_exercises.get(todays_exercises)
+  b = sum(ratings)
+  c = len(all_ratings)
+  ratedworkout = (b/c) * 100
+  
